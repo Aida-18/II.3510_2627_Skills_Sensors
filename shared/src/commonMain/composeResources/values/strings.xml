@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Navigation -->
+    <string name="nav_listings">Listings</string>
+    <string name="nav_my_listings">My listings</string>
+    <string name="nav_post">Post</string>
+    <string name="nav_profile">Profile</string>
+    <string name="action_back">Back</string>
+
+    <!-- Login -->
+    <string name="login_title">Log in</string>
+    <string name="login_required">Log in to continue.</string>
+    <string name="login_email">Email</string>
+    <string name="login_password">Password</string>
+    <string name="action_login">Log in</string>
+    <string name="login_error_empty_fields">Enter your email and your password.</string>
+    <string name="login_error_invalid_credentials">Wrong email or password.</string>
+    <string name="login_demo_hint">Demo account: etudiant1@swapcampus.com / 1234</string>
+
+    <!-- Browse / search -->
+    <string name="listings_search">Search</string>
+    <string name="listings_all_categories">All</string>
+    <string name="listings_max_price">Max price</string>
+    <string name="listings_empty">No listing matches your search.</string>
+    <string name="listings_no_photo">No photo</string>
+
+    <!-- Detail -->
+    <string name="detail_seller">Seller: %1$s</string>
+    <string name="detail_posted_on">Posted on %1$s</string>
+    <string name="detail_not_found">This listing no longer exists.</string>
+
+    <!-- Post / edit form -->
+    <string name="form_title_post">Post a listing</string>
+    <string name="form_title_edit">Edit listing</string>
+    <string name="form_title">Title</string>
+    <string name="form_description">Description</string>
+    <string name="form_price">Price</string>
+    <string name="form_category">Category</string>
+    <string name="form_photo">Photo URL (optional)</string>
+    <string name="action_publish">Publish</string>
+    <string name="action_save">Save</string>
+    <string name="error_title_empty">Title is required.</string>
+    <string name="error_price_invalid">Price must be a number greater than 0.</string>
+    <string name="edit_forbidden">You can only edit your own listings.</string>
+
+    <!-- My listings -->
+    <string name="my_listings_empty">You have not posted any listing yet.</string>
+    <string name="stats_posted">Posted</string>
+    <string name="stats_sold">Sold</string>
+    <string name="stats_available">Available</string>
+    <string name="stats_reserved">Reserved</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_confirm">Confirm</string>
+    <string name="action_reserve">Reserve</string>
+    <string name="action_mark_sold">Mark as sold</string>
+    <string name="action_cancel_reservation">Cancel reservation</string>
+    <string name="action_make_available">Put back on sale</string>
+    <string name="delete_confirm_title">Delete this listing?</string>
+    <string name="delete_confirm_text">This action cannot be undone.</string>
+    <string name="reserve_dialog_title">Reserve for a buyer</string>
+    <string name="reserve_buyer">Buyer (name or email)</string>
+
+    <!-- Status -->
+    <string name="status_available">Available</string>
+    <string name="status_reserved">Reserved by %1$s</string>
+    <string name="status_sold">Sold on %1$s</string>
+
+    <!-- Categories -->
+    <string name="category_books">Books</string>
+    <string name="category_courses">Course notes</string>
+    <string name="category_electronics">Electronics</string>
+    <string name="category_sport">Sport &amp; leisure</string>
+    <string name="category_furniture">Furniture</string>
+    <string name="category_clothes">Clothing</string>
+    <string name="category_other">Other</string>
+
+    <!-- Profile -->
+    <string name="role_student">Student</string>
+    <string name="role_admin">Administrator</string>
+    <string name="profile_email">Email: %1$s</string>
+    <string name="profile_role">Role: %1$s</string>
+    <string name="profile_platform">Running on %1$s</string>
+    <string name="action_logout">Log out</string>
+
+    <!-- Géolocalisation -->
+    <string name="sort_nearest">Nearest</string>
+    <string name="radius_km">≤ %1$d km</string>
+    <string name="distance_away">%1$s away</string>
+    <string name="location_denied">Allow location access to sort listings by distance.</string>
+    <string name="location_unavailable">Location unavailable. Please try again.</string>
+    <string name="location_loading">Locating…</string>
+    <string name="form_location_add">Add my location</string>
+    <string name="form_location_added">Location added ✓</string>
+
+    <!-- Modération (administrateur) -->
+    <string name="mod_remove">Remove (moderation)</string>
+    <string name="mod_dialog_title">Remove this listing?</string>
+    <string name="mod_reason">Reason (required)</string>
+    <string name="mod_log_title">Moderation log</string>
+    <string name="mod_log_empty">No moderation action yet.</string>
+    <string name="mod_log_entry">Listing #%1$d removed on %2$s — %3$s</string>
+    <string name="admin_cannot_post">Administrators do not post listings.</string>
+</resources>

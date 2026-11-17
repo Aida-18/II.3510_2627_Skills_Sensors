@@ -17,7 +17,13 @@ La présentation est dans [`presentation/`](presentation/).
 
 ## 0. Démarrer
 
-1. Ouvrir le dossier dans **Android Studio** (File › Open), attendre la fin du « Gradle sync ».
+1. Récupérer le projet, au choix :
+   - **Télécharger le ZIP** : bouton vert **« Code »** en haut de cette page › **Download ZIP**, puis décompresser
+     et ouvrir le dossier dans **Android Studio** (File › Open) ;
+   - **ou cloner depuis Android Studio** : File › New › **Project from Version Control**, coller l'URL
+     `https://github.com/Aida-18/II.3510_2627_Skills_Sensors.git` › **Clone**.
+
+   Attendre ensuite la fin du « Gradle sync ».
 2. Lancer la configuration **`app`** sur un émulateur (API 34 ou plus) : l'app tourne, mais le tri par proximité ne marche pas encore.
 3. Lancer les tests unitaires : clic droit sur `shared/src/commonTest/kotlin` › *Run Tests*
    (ou `./gradlew :shared:testAndroidHostTest`).
